@@ -12,10 +12,13 @@ Os arquivos JavaScript do site são públicos, como em qualquer aplicação web.
 - Componentes curriculares personalizados.
 - Modelos pessoais editáveis e histórico de versões.
 - Biblioteca local de materiais e vínculos de referências BNCC.
+- Cadastro, login, validação obrigatória de CPF e acesso com Google em modo de demonstração.
 
 ## Limitações importantes
 
 - A geração de roteiros é demonstrativa: a IA ainda não está conectada.
+- A autenticação desta publicação é local e demonstrativa. Não use senha, e-mail
+  ou CPF reais; o login Google simula o fluxo sem acessar uma conta externa.
 - A consulta BNCC usa o serviço independente bncc.dev, não é uma certificação do MEC.
 - Planos, modelos e anexos ficam no navegador/dispositivo utilizado; não há
   sincronização nem envio automático de arquivos. Limpar os dados do navegador
@@ -29,4 +32,4 @@ Ao compartilhar comentários com a pessoa que convidou você, informe o disposit
 navegador, passos realizados, resultado esperado e o que aconteceu. Capturas de
 tela devem omitir dados pessoais.
 
-Distribuição de testes publicada em 15/09/2026.
+Distribuição de testes atualizada em 16/09/2026.
