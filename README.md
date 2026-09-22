@@ -24,6 +24,8 @@ Os arquivos JavaScript do site são públicos, como em qualquer aplicação web.
   HMAC e os últimos quatro dígitos. Isso não comprova a titularidade do documento.
 - Recuperação de senha com nova senha e confirmação após o link do e-mail.
   Abra o link no mesmo navegador em que solicitou a recuperação.
+- Envio de confirmação/recuperação para professores externos ainda depende de
+  configurar SMTP próprio; o envio padrão do Supabase é restrito à equipe do projeto.
 - A consulta BNCC usa o serviço independente bncc.dev, não é uma certificação do MEC.
 - Planos, modelos e anexos novos são salvos na conta e exigem internet. Use
   Atualizar para buscar alterações de outro dispositivo. Arquivos são privados,
