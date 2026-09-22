@@ -16,7 +16,10 @@ Os arquivos JavaScript do site são públicos, como em qualquer aplicação web.
 
 ## Limitações importantes
 
-- A geração de roteiros é demonstrativa: a IA ainda não está conectada.
+- O roteiro demonstrativo não usa IA. A opção "Gerar com IA — piloto" está
+  preparada, mas o piloto permanece DESATIVADO até configuração e autorização.
+  Uma tentativa nessa condição não consome planejamentos nem faz chamada paga.
+  O piloto não aceita anexos e exige consentimento para envio do conteúdo à OpenAI.
 - A autenticação usa contas reais do Supabase. E-mail/senha exige confirmação de
   e-mail; Google depende da configuração de público-alvo do projeto. O fluxo
   completo de entrada e validação de CPF ainda precisa ser homologado pelo responsável.
@@ -38,7 +41,7 @@ Os arquivos JavaScript do site são públicos, como em qualquer aplicação web.
 - O registro protegido de utilização do teste é mantido mesmo após exclusão da
   conta, para impedir repetição. Ele não contém o CPF em texto.
 - Gold/Premium estão em breve, sem cobrança ou ativação paga. Rascunhos atuais e
-  edição manual não consomem saldo porque a IA ainda não está conectada.
+  edição manual não consomem saldo. Futuras gerações com IA usam a cota da conta.
 - Utilize conteúdos fictícios nos testes. Não anexe informações pessoais de alunos.
 - A revisão do professor é necessária antes de aplicar qualquer roteiro.
 
