@@ -12,18 +12,24 @@ Os arquivos JavaScript do site são públicos, como em qualquer aplicação web.
 - Componentes curriculares personalizados.
 - Modelos pessoais editáveis e histórico de versões.
 - Biblioteca local de materiais e vínculos de referências BNCC.
-- Cadastro, login, validação obrigatória de CPF e acesso com Google em modo de demonstração.
+- Cadastro, login e acesso com Google conectados ao Supabase, com CPF obrigatório.
 
 ## Limitações importantes
 
 - A geração de roteiros é demonstrativa: a IA ainda não está conectada.
-- A autenticação desta publicação é local e demonstrativa. Não use senha, e-mail
-  ou CPF reais; o login Google simula o fluxo sem acessar uma conta externa.
+- A autenticação usa contas reais do Supabase. E-mail/senha exige confirmação de
+  e-mail; Google depende da configuração de público-alvo do projeto. O fluxo
+  completo de entrada e validação de CPF ainda precisa ser homologado pelo responsável.
+- O CPF tem seus dígitos validados no servidor; são persistidos uma impressão
+  HMAC e os últimos quatro dígitos. Isso não comprova a titularidade do documento.
+- Recuperação de senha ainda precisa da tela para definir a nova senha.
 - A consulta BNCC usa o serviço independente bncc.dev, não é uma certificação do MEC.
 - Planos, modelos e anexos ficam no navegador/dispositivo utilizado; não há
-  sincronização nem envio automático de arquivos. Limpar os dados do navegador
+  sincronização ou separação desses conteúdos por conta. Use um perfil de navegador
+  separado por professor. Não há envio automático de arquivos. Limpar os dados do navegador
   pode apagar o conteúdo salvo. Somente códigos BNCC são enviados à API de consulta.
-- Utilize dados fictícios nos testes. Não anexe informações pessoais de alunos.
+- Assinaturas, teste gratuito e cotas ainda são demonstrativos; não há cobrança real.
+- Utilize conteúdos fictícios nos testes. Não anexe informações pessoais de alunos.
 - A revisão do professor é necessária antes de aplicar qualquer roteiro.
 
 ## Sugestões de feedback
@@ -32,4 +38,4 @@ Ao compartilhar comentários com a pessoa que convidou você, informe o disposit
 navegador, passos realizados, resultado esperado e o que aconteceu. Capturas de
 tela devem omitir dados pessoais.
 
-Distribuição de testes atualizada em 16/09/2026.
+Distribuição de testes atualizada em 22/09/2026.
