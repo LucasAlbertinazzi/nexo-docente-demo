@@ -1,6 +1,8 @@
-# Nexo Docente — demonstração para professores
+# Nexo Docente — beta web para professores
 
-Versão experimental, somente para testes e coleta de sugestões.
+Versão experimental, somente para professores convidados e coleta de sugestões.
+Use o site em https://lucasalbertinazzi.github.io/nexo-docente-demo/.
+Leia os Termos de Uso e o Aviso de Privacidade no cadastro antes de informar o CPF.
 
 Este repositório contém apenas a distribuição web compilada. O projeto Flutter
 e seu histórico de desenvolvimento permanecem em um repositório privado.
@@ -20,7 +22,8 @@ Os arquivos JavaScript do site são públicos, como em qualquer aplicação web.
 - O roteiro demonstrativo não usa IA. A opção "Gerar com IA — piloto" é separada
   e consome a cota de planejamentos quando conclui a geração. Ela aceita até
   2 PDFs selecionados (5 MB somados) e exige consentimento para envio do
-  conteúdo à OpenAI.
+  conteúdo à OpenAI. A IA está ativa, mas depende de um orçamento global de
+  teste; pode ficar indisponível mesmo durante os 15 dias.
 - A autenticação usa contas reais do Supabase. E-mail/senha exige confirmação de
   e-mail; Google depende da configuração de público-alvo do projeto. O fluxo
   completo de entrada e validação de CPF ainda precisa ser homologado pelo responsável.
@@ -43,8 +46,8 @@ Os arquivos JavaScript do site são públicos, como em qualquer aplicação web.
   Use Atualizar assinatura para consultar em outro dispositivo.
 - O registro protegido de utilização do teste é mantido mesmo após exclusão da
   conta, para impedir repetição. Ele não contém o CPF em texto.
-- Gold/Premium estão em breve, sem cobrança ou ativação paga. Rascunhos atuais e
-  edição manual não consomem saldo. Futuras gerações com IA usam a cota da conta.
+- Gold/Premium estão em breve, sem cobrança ou ativação paga. Rascunhos
+  demonstrativos e edição manual não consomem saldo.
 - Utilize conteúdos fictícios nos testes. Não anexe informações pessoais de alunos.
 - A revisão do professor é necessária antes de aplicar qualquer roteiro.
 
@@ -53,5 +56,7 @@ Os arquivos JavaScript do site são públicos, como em qualquer aplicação web.
 Ao compartilhar comentários com a pessoa que convidou você, informe o dispositivo,
 navegador, passos realizados, resultado esperado e o que aconteceu. Capturas de
 tela devem omitir dados pessoais.
+
+Suporte e solicitações sobre dados pessoais: sup.nexodocente@gmail.com.
 
 Distribuição de testes atualizada em 22/09/2026.
