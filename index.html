@@ -80,7 +80,7 @@ addEventListener("message", eventListener);
 _flutter.buildConfig = {"engineRevision":"59aa584fdf100e6c78c785d8a5b565d1de4b48ab","builds":[{"compileTarget":"dart2js","renderer":"canvaskit","mainJsPath":"main.dart.js"}]};
 
     for (const build of _flutter.buildConfig.builds) {
-      if (build.mainJsPath) build.mainJsPath += '?v=3-firebase';
+      if (build.mainJsPath) build.mainJsPath += '?v=3-firebase-clean';
     }
     _flutter.loader.load();
   </script>
