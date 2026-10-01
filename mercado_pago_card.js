@@ -20,6 +20,7 @@
           initialization: { amount },
           customization: { paymentMethods: { maxInstallments: 1 } },
           callbacks: {
+            onReady() {},
             onSubmit(formData, additionalData) {
               return new Promise((resolve, reject) => {
                 const data = {
