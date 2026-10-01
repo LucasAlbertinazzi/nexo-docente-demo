@@ -130766,7 +130766,7 @@ s=this.d===B.pr
 r=n.ok
 q=t.p
 p=A.dM(B.aW,A.b([A.S(A.vG(s?B.n.aL(m.e/12):m.d),o,o,o,o,r.d,o,o,o),B.aV4],q),B.Rh,0,0)
-m=s?A.vG(m.e)+"/ano \xb7 economize "+A.byN(m)+"%":"Acesso por um m\xeas \xb7 renova\xe7\xe3o manual."
+m=s?A.vG(m.e)+"/ano \xb7 economize "+A.byN(m)+"% \xb7 renova\xe7\xe3o autom\xe1tica opcional no cr\xe9dito.":"Acesso por um m\xeas \xb7 renova\xe7\xe3o autom\xe1tica opcional no cr\xe9dito."
 return A.b0(A.b([p,B.uJ,A.S(m,o,o,o,o,r.Q,o,o,o)],q),B.az,B.L,B.P)}}
 A.EP.prototype={
 I(a){var s,r,q,p,o,n,m=null,l=A.E(a),k=l.ax,j=this.c,i=j.d,h=i===0?0:B.n.aF(j.c/i,0,1),g=j.a===B.bP,f=g?m:j.x,e=j.z?j.y:m,d=k.d
