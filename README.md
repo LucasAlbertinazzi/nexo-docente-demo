@@ -59,4 +59,4 @@ tela devem omitir dados pessoais.
 
 Suporte e solicitações sobre dados pessoais: sup.nexodocente@gmail.com.
 
-Distribuição web atualizada em 30/09/2026.
+Distribuição web atualizada em 01/10/2026.
