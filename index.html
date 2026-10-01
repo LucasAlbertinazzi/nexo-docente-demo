@@ -32,6 +32,8 @@
 
   <title>Nexo Docente</title>
   <link rel="manifest" href="manifest.json">
+  <script src="https://sdk.mercadopago.com/js/v2" defer></script>
+  <script src="mercado_pago_card.js" defer></script>
 </head>
 <body>
   <!--
@@ -81,7 +83,7 @@ addEventListener("message", eventListener);
 _flutter.buildConfig = {"engineRevision":"59aa584fdf100e6c78c785d8a5b565d1de4b48ab","builds":[{"compileTarget":"dart2js","renderer":"canvaskit","mainJsPath":"main.dart.js"},{}],"useLocalCanvasKit":true};
 
     for (const build of _flutter.buildConfig.builds) {
-      if (build.mainJsPath) build.mainJsPath += '?v=1.0.3-8';
+      if (build.mainJsPath) build.mainJsPath += '?v=1.0.5-10';
     }
     _flutter.loader.load();
   </script>

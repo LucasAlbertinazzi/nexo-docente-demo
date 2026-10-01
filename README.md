@@ -1,7 +1,6 @@
-# Nexo Docente — beta web para professores
+# Nexo Docente — web para professores
 
-Versão experimental, somente para professores convidados e coleta de sugestões.
-Use o site em https://lucasalbertinazzi.github.io/nexo-docente-demo/.
+Use o site em https://appnexodocente.com.br/.
 Leia os Termos de Uso e o Aviso de Privacidade no cadastro antes de informar o CPF.
 
 Este repositório contém apenas a distribuição web compilada. O projeto Flutter
@@ -16,6 +15,7 @@ Os arquivos JavaScript do site são públicos, como em qualquer aplicação web.
 - Biblioteca privada por conta, com vínculos de referências BNCC.
 - Busca de habilidades BNCC por código, assunto, etapa, componente e ano.
 - Cadastro, login e acesso com Google conectados ao Supabase, com CPF obrigatório.
+- Planos Gold e Premium com Pix, cartão e opção de cobrança automática no crédito.
 
 ## Limitações importantes
 
@@ -45,8 +45,9 @@ Os arquivos JavaScript do site são públicos, como em qualquer aplicação web.
   Use Atualizar assinatura para consultar em outro dispositivo.
 - O registro protegido de utilização do teste é mantido mesmo após exclusão da
   conta, para impedir repetição. Ele não contém o CPF em texto.
-- Planos pagos não são oferecidos nesta versão. Rascunhos demonstrativos e edição
-  manual não consomem saldo.
+- Compras são oferecidas somente na versão web. O plano é ativado após a
+  confirmação do Mercado Pago. Rascunhos demonstrativos e edição manual não
+  consomem saldo.
 - Utilize conteúdos fictícios nos testes. Não anexe informações pessoais de alunos.
 - A revisão do professor é necessária antes de aplicar qualquer roteiro.
 
@@ -58,4 +59,4 @@ tela devem omitir dados pessoais.
 
 Suporte e solicitações sobre dados pessoais: sup.nexodocente@gmail.com.
 
-Distribuição de testes atualizada em 23/09/2026.
+Distribuição web atualizada em 30/09/2026.
