@@ -1,9 +1,11 @@
 # Nexo Docente — web para professores
 
 Use o site em https://appnexodocente.com.br/.
+Conheça a [apresentação pública interativa](https://appnexodocente.com.br/apresentacao/),
+com recursos, capturas reais e uma demonstração sem login que usa apenas exemplos locais.
 Leia os Termos de Uso e o Aviso de Privacidade no cadastro antes de informar o CPF.
 
-Este repositório contém apenas a distribuição web compilada. O projeto Flutter
+Este repositório contém a distribuição web compilada e a apresentação pública estática. O projeto Flutter
 e seu histórico de desenvolvimento permanecem em um repositório privado.
 Os arquivos JavaScript do site são públicos, como em qualquer aplicação web.
 
